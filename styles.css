@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(31,31,31);
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    border-top: 150px solid orange;
+    margin: 0;
+    padding: 0; 
+    color:gainsboro;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    background-color: rgb(40,40,40);
+    border: 2px solid rgb(40,40,40);
+    padding: 0;
+    margin: auto;
+}
+
+.navlinks, .navlink {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#title {
+    position: absolute;
+    top: 100px;
+    color: rgb(31,31,31);
+}
+
+#subtitle {
+    position: absolute;
+    font-size: .8em;
+    top: 124px;
+    left: 175px;
+    color: rgb(31,31,31);
+    font-style: italic;
+}
+
+#mainlogo {
+    position: absolute;
+    top: 0;
+}
+
+#mainpage {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(40,40,40);
+    padding: 5px;
+}
+
+#pagename {
+    color: orange;
+}
